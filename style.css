@@ -1,0 +1,117 @@
+.container {
+  display: grid;
+  grid-template-columns: (4, 1fr);
+  grid-template-rows: (6, 1fr);
+  grid-template-areas:
+    "result result result result"
+    "plus minun per diviso"
+    "seven eight nine equal"
+    "four five six equal"
+    "one two three equal"
+    "zero point ac equal";
+  justify-content: center;
+  margin-top: 300px;
+}
+
+button {
+  font-size: 18pt;
+}
+
+input {
+  width: 398px;
+  height: 45px;
+  background-color: rgb(77, 77, 104);
+}
+
+.result {
+  grid-area: result;
+}
+
+.plus {
+  grid-area: plus;
+}
+
+.minun {
+  grid-area: minun;
+}
+
+.per {
+  grid-area: per;
+}
+
+.diviso {
+  grid-area: diviso;
+}
+
+.equal {
+  grid-area: equal;
+}
+
+.seven {
+  grid-area: seven;
+}
+
+.eight {
+  grid-area: eight;
+}
+
+.nine {
+  grid-area: nine;
+}
+
+.six {
+  grid-area: six;
+}
+
+.five {
+  grid-area: five;
+}
+
+.four {
+  grid-area: four;
+}
+
+.three {
+  grid-area: three;
+}
+
+.two {
+  grid-area: two;
+}
+
+.one {
+  grid-area: one;
+}
+
+.zero {
+  grid-area: zero;
+}
+
+.ac {
+  grid-area: ac;
+}
+
+.point {
+  grid-area: point;
+}
+
+/* bottons */
+.signs {
+  background-color: azure;
+}
+
+.equal > button {
+  background-color: rgb(207, 68, 68);
+  width: 100px;
+  height: calc(56px * 4);
+}
+
+.number {
+  background-color: white;
+}
+
+.number,
+.signs {
+  width: 100px;
+  height: 56px;
+}
